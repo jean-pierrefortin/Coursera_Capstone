@@ -1,0 +1,27 @@
+### Functions, libraries, and other python codes used!
+
+Beautifulsoup, for scraping various websites
+wget, to download files from website
+Pandas, various pandas functions
+Folium, to display maps, etc.
+For loops
+Matplotlib, to display charts and other figures 
+
+### Down below, I will display all the libraries imported
+---------
+import requests
+from bs4 import BeautifulSoup
+import numpy as np
+import pandas as pd
+import ssl
+import csv
+import types
+import pandas as pd
+from botocore.client import Config
+import ibm_boto3
+import matplotlib.pyplot as plt
+%matplotlib inline
+from urllib.request import urlopen
+import json
+import os
+import matplotlib as mpl
