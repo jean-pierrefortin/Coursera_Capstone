@@ -7,8 +7,9 @@ Folium, to display maps, etc.
 For loops
 Matplotlib, to display charts and other figures 
 
-### Down below, I will display all the libraries imported
+### Down below, I will display all the libraries imported, and explain why I will use them.
 ---------
+Create a survey for research and data collection
 import requests
 from bs4 import BeautifulSoup
 import numpy as np
@@ -25,3 +26,13 @@ from urllib.request import urlopen
 import json
 import os
 import matplotlib as mpl
+from sklearn.cluster import KMeans
+import json
+from pandas.io.json import json_normalize
+import matplotlib.cm as cm
+import matplotlib.colors as colors
+from geopy.geocoders import Nominatim
+
+ These libraries will be used to visualize, import, retrieve, scrape data, frame, calculate, 
+ and solve problems in the survey and other ideas more broad than just the survey. Foursquare will help me locate certain
+ where my research is relevant, depanding on the findings on the survey I will create and do.
